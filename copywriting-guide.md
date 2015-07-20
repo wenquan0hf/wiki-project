@@ -68,6 +68,10 @@ markdown 格式
 
 ![](images/cg1.png)
 
+## 图片地址举例
 
+```
+![](images/1.png)
+```
 
 
