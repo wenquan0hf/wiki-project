@@ -1,34 +1,18 @@
-# 欢迎来到极客学院 Wiki
+- 第一步: [注册 GitHub，创建仓库（花费 10 分钟）](learn-github.md)
 
-## 先学习下极客学院 Wiki 协作手册
+- 第二步: [Markdown 五分钟速成（花费 5 分钟）](markdown.md)
 
-Wiki 协作采用 Markdown+GitHub 极简工具进行创作，下面的步骤，包括 Wiki 创作的整个过程：
+- 第三步: [提交](submit-online.md)
 
-第一步：[注册 GitHub，创建仓库（花费 10 分钟）](learn-github.md)
+- 发送第一个Pull Request
 
-第二步；[Markdown 五分钟速成（花费 5 分钟）](markdown.md)
+  GitHub的界面：左边选择base branch，右边选择head branch。
 
-第三步；[创建基础文件结构，开始撰写](toc-struct.md)
+- base branch：相当于target branch，你希望Pull Request被merge到上游项目的哪个branch里。
 
-第四步；[极客学院文案风格指南（花费 5 分钟）](copywriting-guide.md)
+  为什么要叫base branch：base可以理解为你在进行git rebase操作时的那个“base”，也就是你的主题branch所基于的开发base（基础）。
 
-第五步：[提交](submit-online.md)
-
-## 整理一个示例课程，练练手
-
-将下面这个课程按要求整理
-
-[http://www.cocoachina.com/ios/20150324/11411.html](http://www.cocoachina.com/ios/20150324/11411.html)
-
-从这个地址 Fork 仓库。
-
-[https://github.com/wenquan0hf/homekit](https://github.com/wenquan0hf/homekit)
-
->注意：需要整理出：
->
-- 目录
-- 简介和启用 HomeKit 两章，多了不要。
-- 文件结构（参考第三步）
+- head branch：相当于source branch，你希望自己开发库里的哪个branch被用来进行Pull Request（当然也就是你的主题branch）。
 
 
 
